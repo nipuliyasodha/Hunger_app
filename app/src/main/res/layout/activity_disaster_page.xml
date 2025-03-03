@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Disaster_page">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background_color"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="-45dp">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="347dp"
+            android:layout_height="80dp"
+            android:rotation="0"
+            android:rotationX="0"
+            android:rotationY="0"
+            android:text="DISASTER and EMERGENCIES"
+            android:textAlignment="center"
+            android:textColor="#FFEB3B"
+            android:textSize="34sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="36dp"
+            android:text="DISASTERS HIT POOR COMMUNITIES HARDEST"
+            android:textColor="#F20C5A"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toTopOf="@+id/textView5"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Disasters have always impacted communities, but climate change, urbanization, and other factors have made them more frequent and severe. The most vulnerable are those already living in poverty, as they lack the resources to recover quickly. For these families, what starts as a short-term emergency can escalate into a prolonged crisis, deepening their struggles and making recovery even harder."
+            android:textColor="#EAEEF0"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.737" />
+
+        <androidx.appcompat.widget.AppCompatButton
+
+            android:id="@+id/button2"
+            android:layout_width="170dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="212dp"
+            android:layout_marginTop="91dp"
+            android:layout_marginEnd="25dp"
+            android:background="@drawable/button"
+            android:text="BACK"
+            android:textColor="@color/white"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.989" />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="293dp"
+            android:layout_height="227dp"
+            android:layout_marginStart="56dp"
+            android:src="@drawable/ni2"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.192" />
+
+        <androidx.appcompat.widget.AppCompatButton
+
+            android:id="@+id/button14"
+            android:layout_width="170dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="212dp"
+            android:layout_marginTop="91dp"
+            android:layout_marginEnd="25dp"
+            android:background="@drawable/button"
+            android:text="HELP NEEDED"
+            android:textColor="@color/white"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.875" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
